@@ -62,9 +62,9 @@
 	  其并行query部分在CUDA 8.0平台上利用C++实现。</font></p>
   <li>机器翻译系统（因纽特语到英语）</li>
   <p><font color="black">	
-本系统在Chainer框架下利用python语言实现了具备encoder-decoder模型与attention机制的RNN神经网络。
+本系统在Chainer框架下利用python语言实现了具备encoder-decoder模型与attention机制的RNN神经网络。针对UNKword的问题，subword的处理方法可以在一定程度上解决。
 	  同时针对因纽特语的特殊情况（由一个根词和多个前缀或者后缀组成），我们在采用subword处理源数据之后，
-	  以CNN为编码器RNN为解码器而构建了神经翻译系统。</font></p>
+	  以CNN为编码器RNN为解码器而构建了神经翻译系统。CNN的编码器结构可以帮助解决过翻译和欠翻译的问题（因为一个因纽特语单词可以有多种意思的英文，或者相反）</font></p>
   <li>从最基础的向量运算开始学习逻辑回归，再到神经网络，在不借助已有框架的情况下，可以搭建CNN网络结构模型。
  </ul></div>
 
