@@ -39,6 +39,7 @@
 	<!--<font size="2" color="blue">This is some text!</font>
 	<font face="verdana" color="green">This is some text!</font>-->
 	<p><font color="black">我叫李俊毅，来自山西省介休市。现在暂时还在思考人生目标，欢迎一起讨论</font></p>
+		 <p><font color="black"><a href="{{ site.baseurl }}{{ post.url }}"> 戳这里可以访问我的个人博客~（建设中） </a></font></p>
 
 
 	<div id="content">
@@ -93,14 +94,9 @@
 </ul>
 		
 <h2>我的博客</h2>	
-　　<p>
-	  最新文章
-		</p>
-　<ul>
-　　　　for post in site.posts
-　　　　　　<li>post.date | date_to_string  <a href="{{ site.baseurl }}{{ post.url }}"> post.title </a></li>
-　　　　endfor
-　　</ul>
+　　
+
+　　
 
 	<h2>联系</h2>
 <p>
