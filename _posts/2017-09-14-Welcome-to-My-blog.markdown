@@ -2,8 +2,8 @@
 layout: post
 title:  "Welcome to My blog!"
 date:   2017-09-14 
-categories: Personal life
-tags: Personal life
+categories: Personal-life
+tags: Personal-life
 ---
 Hello everyone. Yep, this is a traditional hi. emmm. Make yourself comfortable and welcome to cantact me! I am quite outgoing! hhhhh~~~
 
