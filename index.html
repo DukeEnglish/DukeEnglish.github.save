@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 
+---
+layout: default
+title: 我的Blog
+---
+
 <!--<body background="Sunrise_by_Tom.jpg">-->
 
 <head>
@@ -90,7 +95,15 @@
 
 	<p><font color="black">本科在校期间，从基础社团学生活动的参与到后期活动的策划组织，对活动的组织策划等流程有了深刻的了解。研究生的生活让我见识到了新的世界，同时也可以从一个新的角度认识自己过去的生活，海外的生活也让自己有了将国内外不同思想不同文化交融在一起的机会。
 </font></p>
-</ul>	
+</ul>
+		
+<h2>{{ page.title }}</h2>
+　　<p>最新文章</p>
+　　<ul>
+　　　　{% for post in site.posts %}
+　　　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+　　　　{% endfor %}
+　　</ul>
 
 	<h2>联系</h2>
 <p>
