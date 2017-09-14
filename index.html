@@ -92,12 +92,14 @@
 </font></p>
 </ul>
 		
-<h2>我的博客</h2>
-　　<p>最新文章</p>
-　　<ul>
-　　　　{for post in site.posts}
-　　　　　　<li>{ post.date | date_to_string } <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-　　　　{endfor}
+<h2>我的博客</h2>	
+　　<p>
+	  最新文章
+		</p>
+　<ul>
+　　　　for post in site.posts
+　　　　　　<li>post.date | date_to_string  <a href="{{ site.baseurl }}{{ post.url }}"> post.title </a></li>
+　　　　endfor
 　　</ul>
 
 	<h2>联系</h2>
