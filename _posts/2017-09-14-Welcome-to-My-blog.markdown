@@ -1,10 +1,15 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2015-03-08 22:21:49
-categories: Jekyll Update
-tags: Jekyll Update
+title:  "Welcome to My blog!"
+date:   2017-09-14 
+categories: Personal life
+tags: Personal life
 ---
+Hello everyone. Yep, this is a traditional hi. emmm. Make yourself comfortable and welcome to cantact me! I am quite outgoing! hhhhh~~~
+
+Thanks to many people who share the turtorial about build blog on github. You will find the reference I refered to during the process I built this website in the end of this page.
+
+
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
