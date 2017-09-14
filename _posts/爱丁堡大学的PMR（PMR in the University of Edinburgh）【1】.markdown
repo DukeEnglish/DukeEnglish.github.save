@@ -1,3 +1,12 @@
+---
+layout: post
+title:  "爱丁堡大学的PMR（PMR in the University of Edinburgh）【1】"
+date:   2017-09-14 
+categories: 机器学习
+tags: 机器学习
+---
+
+
 每天写一千字的blog，这个是http://www.cnfeat.com/ 提出的，我也想这样做。可能是觉得每天固定做点儿什么事情确实会比较cool吧。虽然我有时候不知道自己应该写什么。那么今天就写一下我对爱丁堡大学PMR这门课的想法吧（Probability modeling and reasoning in the University of Edinburgh）。应该很多学校都有类似的课程，但是名字不尽相同，所以我也不知道哪儿有。。。
 
  
