@@ -2,6 +2,7 @@
 layout: post
 title:  "机器学习性能评估"
 date:   2017-09-19 
+categories: 机器学习
 tags: 机器学习
 ---
 
