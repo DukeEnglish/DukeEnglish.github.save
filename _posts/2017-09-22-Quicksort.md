@@ -1,11 +1,10 @@
-﻿---
+---
 layout: post
 title:  "快速排序"
 date:   2017-09-22 
-catagory: Algorithm
+catagories: Algorithm
 tags: Algorithm
 ---
-# 快速排序
 
 天了咯，最近找工作真的挺辛苦的。虽然我本科确实很渣，但是确实面试要考很多很基础的东西啊。怎么办呢？复习咯！
 今天我想说一个非常流行的排序算法，叫做快速排序。
