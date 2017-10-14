@@ -58,7 +58,7 @@ void quicksort(int left, int right){
         if(i<j){//考虑i=j会怎么样
             int t = a[i];
             a[j]=a[i];
-            a[i]t;
+            a[i]=t;
         }
     }
     //基准数以外的数字都找到了自己的位置，让基准数归位
