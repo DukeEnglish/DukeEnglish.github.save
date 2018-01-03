@@ -1,4 +1,4 @@
-Code for my website at https://ceshipp.github.io
+Code for my website at https://dukeenglish.github.io
 
 
 - Publications
@@ -7,4 +7,4 @@ Code for my website at https://ceshipp.github.io
 - Collaborators
 - Seminars
 - Personlized
-- 汉化
+- 汉化 and rewrite
