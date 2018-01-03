@@ -1,0 +1,36 @@
+# Site settings
+title: 李俊毅的个人主页
+email: ljyduke@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Hi everyone.It is happy to see you here. Thanks http://peiwen.lu for providing this template. This site is being updating.
+baseurl: "" # the subpath of your site, e.g. /blog/
+#url: "http://yourdomain.com" # the base hostname & protocol for your site
+
+
+# Sidebar filter
+# Choose 'tag' or 'category' as filter in sidebar.
+filter: 'tag'
+
+
+# Social account
+# twitter:  username
+# weibo:    ID
+github:   DukeEnglish
+# codepen:  username
+# dribbble: username
+
+
+# Comment
+# disqus_shortname: discussion_shortname
+
+
+# Google Analytics
+# google_analytics: tracking_ID
+
+
+# Build settings
+markdown: kramdown
+sass:
+  style: compressed
+gems:
+  - jekyll-sitemap

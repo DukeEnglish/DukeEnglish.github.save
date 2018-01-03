@@ -24,28 +24,7 @@
     <script src="js/bootstrap.min.js"></script>
 
     <div class="container">
-      <div class="row">
-        <div class="col-sm-2">
-          {% include nav-bar.html %}
-        </div>
-        <div class="col-sm-10">
-          {{ content }}
-        </div>
-      </div>
-      <footer class="text-center text-muted">
-        <hr/>
-        Last updated {{ site.time | date: "%B %d, %Y" }}.<br/>
-        Created with 
-        <a href="http://git-scm.com/">git</a>,
-        <a href="http://jekyllrb.com">jekyll</a>,
-        <a href="http://getbootstrap.com/">bootstrap</a>,
-        and <a href="http://www.vim.org/">vim</a>.<br/> 
-        Reuse the 
-        <a href="https://github.com/alopez/alopez.github.com">source code</a> of Adam Lopez.<br/>
-        <!-- Mirrors: <a href="http://homepages.inf.ed.ac.uk/alopez/">inf.ed.ac.uk</a>, 
-        <a href="http://alopez.github.io/">github.io</a> -->
-        <br/><br/>
-      </footer>
+      {{ content }}
     </div>
   </body>
 </html>

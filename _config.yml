@@ -1,36 +1,212 @@
-# Site settings
-title: 李俊毅的个人主页
-email: ljyduke@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Hi everyone.It is happy to see you here. Thanks http://peiwen.lu for providing this template. This site is being updating.
-baseurl: "" # the subpath of your site, e.g. /blog/
-#url: "http://yourdomain.com" # the base hostname & protocol for your site
+exclude: ['README.md']
+timezone: US/Eastern
+# talks:
+#   -
+#     title: Compact adaptable translation models on GPUs
+#     detail: Talk at Google, 2013.
+#     url: "http://www.cs.jhu.edu/~alopez/talks/gpus-oct2013-google.pdf"
+#     img: "google-talk.jpg"
+#   -
+#     title: Learning to translate with products of novices
+#     detail: Talk at Information Science Institute, 2013.
+#     url: "http://www.cs.jhu.edu/~alopez/talks/mt-class-isi.pdf"
+#     img: "isi-talk.jpg"
+#     video: http://webcasterms1.isi.edu/mediasite/SilverlightPlayer/Default.aspx?peid=ea55185170054e13972a0ea5b932eb6c1d
+papers:
+  - layout: paper
+    year: 2017.12.28
+    paper-type: published
+    selected: yes
+    img: zhihu
+    title: "TEST"
+    authors: Duke Lee
+    # booktitle: Workshop on Speech-Centric Natural Language Processing (SCNLP)
+    # booktitle-url: http://speechnlp.github.io/2017/
+    # venue: workshop
+    doc-url: https://zhuanlan.zhihu.com/p/32414587
+    abstract: >
+      TEST
+  - layout: paper
+    year: 2017
+    paper-type: published
+    selected: yes
+    img: SYNCED
+    title: "Yann Le Cun: Predicting under Uncertainty, the Next Frontier in AI"
+    authors: "Duke Lee | Localized by Synced Global Team : Xiang Chen"
+    # booktitle: Workshop on Speech-Centric Natural Language Processing (SCNLP)
+    # booktitle-url: http://speechnlp.github.io/2017/
+    # venue: workshop
+    doc-url: https://syncedreview.com/2017/02/25/yann-le-cun-predicting-under-uncertainty-the-next-frontier-in-ai/
+    abstract: >
+      The rapid progress of AI in the last few years is largely the result of 
+      advances in deep learning and neural nets, combined with the availability of 
+      large datasets and fast GPUs. We now have systems that can recognise images 
+      with an accuracy that rival humans. This is creating a revolution in several 
+      domains, such as information access, autonomous transportation, and medical 
+      image analysis. But currently, all these systems use supervised learning, 
+      where the machine is trained with inputs labelled by humans. Therefore, 
+      the challenge now is for machines learn from raw, unlabeled data such 
+      as video or text. This is known as predictive (or unsupervised) learning.
+      Intelligent systems today do not possess “common sense”, which in human 
+      and animals is acquired by observing the world, understanding the physical 
+      constraints, and acting on it. Professor LeCun argues that the ability for 
+      machines to learn predictive models of the world is a key component in enabling 
+      significant progress in AI. The main technical difficulty is that the world is 
+      only partially predictable. A general formulation of unsupervised learning that 
+      deals with partial predictability will be presented. The formulation connects 
+      many well-known approaches to unsupervised learning, as well as new and exciting 
+      ones such as adversarial training.
+  - layout: paper
+    year: 2017
+    paper-type: published
+    selected: yes
+    img: SYNCED
+    title: "David Silver, Google DeepMind: Deep Reinforcement Learning"
+    authors: "Duke Lee | Editor: Arac Wu | Localized by Synced Global Team : Xiang Chen"
+    # booktitle: Workshop on Speech-Centric Natural Language Processing (SCNLP)
+    # booktitle-url: http://speechnlp.github.io/2017/
+    # venue: workshop
+    doc-url: https://syncedreview.com/2017/02/24/david-silver-google-deepmind-deep-reinforcement-learning/
+    abstract: >
+      Reinforcement Learning (RL) is becoming increasingly popular among relevant researchers, especially 
+      after DeepMind’s acquisition by Google and its subsequent success in AlphaGo. Here, I will review a 
+      lecture by David Silver, who is currently working at Google DeepMind. It’s not very difficult to understand, 
+      and I think it can help us acquire a basic understanding of RL or Deep RL.
 
+      In this video, David will give a basic introduction to Deep Learning (DL) and Reinforcement Learning (RL), 
+      as well as discussing how the two can be combined into one approach. There are three ways to combine DL and RL, 
+      based on three different principles: value-based, policy-based, and model-based approaches with planning. 
+      During this lecture, David provided many examples of their experiments, ending with a brief discussion about AlphaGo.
+  - layout: paper
+    year: 2017
+    paper-type: published
+    selected: yes
+    img: SYNCED
+    title: "Combining Collaborative Filtering with Personal Agents for Better Recommendations"
+    authors: "Duke Lee | Editor: Arac Wu | Localized by Synced Global Team : Xiang Chen"
+    # booktitle: Workshop on Speech-Centric Natural Language Processing (SCNLP)
+    # booktitle-url: http://speechnlp.github.io/2017/
+    # venue: workshop
+    doc-url: https://syncedreview.com/2017/02/24/david-silver-google-deepmind-deep-reinforcement-learning/
+    abstract: >
+      This paper shows a way to combine the two algorithms of Information Filtering and Collaborative Filtering. 
+      It argued that a Collaborative Filtering (CF) framework can be used to combine personal Information Filtering (IF) 
+      agents and the opinions of a community of users, and the recommendation produced will be better than what the 
+      agents and the users can produce alone. It also shows that using CF to create a personal combination of a set 
+      of agents produces better results than either individual agents or other combination mechanisms. One key 
+      implication of these results is that users can avoid having to select among agents; they can use them all 
+      and let the CF framework select the best ones for them. Back in those days, this is a good way to construct this framework.
 
-# Sidebar filter
-# Choose 'tag' or 'category' as filter in sidebar.
-filter: 'tag'
+      In this paper review, apart from the introduction of basic ideas about RSs, I will attempt to help the readers understand 
+      Hypotheses and Experimental Design, Discussion, and give my own opinion about this experiment based on present day developements. 
+      ere will also be some recommended materials to help readers study RSs.
+  - layout: paper
+    year: 2017
+    paper-type: published
+    selected: yes
+    img: SYNCED
+    title: "Generalizing and Hybridizing Count-based and Neural Language Model"
+    authors: "Author: Junyi | Reviewer: Haojin Yang"
+    # booktitle: Workshop on Speech-Centric Natural Language Processing (SCNLP)
+    # booktitle-url: http://speechnlp.github.io/2017/
+    # venue: workshop
+    doc-url: https://syncedreview.com/2017/07/24/generalizing-and-hybridizing-count-based-and-neural-language-model/
+    abstract: >
+      This paper demonstrates a framework called Mixture Of Distribution Language Models (MODLMs), 
+      which provides a single mathematical framework that encompasses several widely used classes of LMs. 
+      This paper describes two novel ways to combine the desirable features of traditional n-gram model and 
+      neural LMs: neural interpolated n-gram LMs, and neural/n-gram hybrid LMs. The authors executed experiments 
+      on two corpus: the Penn Treebank (PTB) dataset, and the first 100k sentences on the English side of the 
+      ASPEC corpus. [1, 2] After these two trials, they also experimented on the larger data sets (WSJ and GW) 
+      and make a comparison with Static Interpolation. The results shows that their new framework has good 
+      performance at combining models, and achieved better or similar results compared with existing models. 
+      This framework may give us some inspiration on improving the language models.
 
+  - layout: paper
+    year: 2017
+    paper-type: published
+    selected: yes
+    img: SYNCED
+    title: "London: Deep Learning in Healthcare"
+    authors: "Junyi Li and Yuka Liu | Localized by Synced Global Team : Xiang Chen"
+    # booktitle: Workshop on Speech-Centric Natural Language Processing (SCNLP)
+    # booktitle-url: http://speechnlp.github.io/2017/
+    # venue: workshop
+    doc-url: https://syncedreview.com/2017/03/16/re%E2%80%A2work%C2%B7-deep-learning-in-healthcare-summit-in-london/
+    abstract: >
+      Speakers in this summit presented their own ideas regarding this question, with a focus on the processing and 
+      recognition of medical data and images. Luca Bertinetto from ICL presented Fully-Convolutional Siamese Networks 
+      for Object tracking. Viktor from SkinScanner and Anastasia from Beautify A.I. both proposed the use of skin 
+      images to diagnose skin diseases and generate treatment plans. Fangde Liu from ICL presented a method to make 
+      personal devices capable of applying DL to medical images. Johanna from Oxford University, and Daniel from Ada 
+      both came up with the idea to use data collected by remote equipment. Following is my notes that I would like to share with you.
+  - layout: paper
+    year: 2017
+    paper-type: published
+    selected: yes
+    img: SYNCED
+    title: "RE·WORK: Deep Learning in Retail Summit (London, UK)"
+    authors: "Junyi Li"
+    # booktitle: Workshop on Speech-Centric Natural Language Processing (SCNLP)
+    # booktitle-url: http://speechnlp.github.io/2017/
+    # venue: workshop
+    doc-url: https://syncedreview.com/2017/06/06/re%C2%B7work-deep-learning-in-retail-summit-london-uk/
+    abstract: >
+      Titled Discover the latest deep learning advancements and how to leverage methods to improve advertising and the 
+      retail experience, the summit attracted companies such as IBM, Amazon, etc. The topics include Deep Learning 
+      Trends and Customer Insight, Forecasting and Recommendations, Warehouse and Stock optimization and Computer 
+      Vision and Image Recognition. Many of them are from startups, which are quite interesting and energetic in the 
+      conference. (www.re-work.co)
 
-# Social account
-# twitter:  username
-# weibo:    ID
-github:   DukeEnglish
-# codepen:  username
-# dribbble: username
-
-
-# Comment
-# disqus_shortname: discussion_shortname
-
-
-# Google Analytics
-# google_analytics: tracking_ID
-
-
-# Build settings
-markdown: kramdown
-sass:
-  style: compressed
-gems:
-  - jekyll-sitemap
+  # - layout: paper
+  #   paper-type: inproceedings
+  #   selected: yes
+  #   year: 2016
+  #   img: glm
+  #   title: N-gram language models for massively parallel devices
+  #   authors: Nikolay Bogoychev and Adam Lopez
+  #   booktitle: Proceedings of ACL
+  #   booktitle-url: http://acl2016.org/
+  #   code: https://github.com/XapaJIaMnu/gLM
+  #   doc-url: https://drive.google.com/file/d/0B7cpo43vOGF1RHIxSTgwNFB6Wkk/view?usp=sharing
+  #   venue: conference
+  #   abstract: >
+  #     For many applications, the query speed of $N$-gram language models is 
+  #     a computational bottleneck. Although massively parallel hardware like 
+  #     GPUs offer a potential solution to this bottleneck, exploiting this 
+  #     hardware requires a careful rethinking of basic algorithms and data 
+  #     structures. We present the first language model designed for such 
+  #     hardware, using B-trees to maximize data parallelism and minimize 
+  #     memory footprint and latency. Compared with a single-threaded 
+  #     instance of KenLM (Heafield, 2011), a highly optimized CPU-based 
+  #     language model, our GPU implementation produces identical results 
+  #     with a smaller memory footprint and a sixfold increase in throughput 
+  #     on a batch query task. When we saturate both devices, the GPU 
+  #     delivers nearly twice the throughput per hardware dollar even when the
+  #     CPU implementation uses faster data structures.
+  - layout: paper
+    year: 2017
+    paper-type: inproceedings
+    img: zhihu
+    title: "UParse: the Edinburgh system for the CoNLL 2017 UD shared task"
+    authors: Clara Vania, Xingxing Zhang, and Adam Lopez
+    booktitle: "Proceedings of the CoNLL shared task"
+    booktitle-url: http://universaldependencies.org/conll17/
+    doc-url: http://aclweb.org/anthology/K17-3010
+    venue: workshop
+    abstract: >
+      This paper presents our submissions for
+      the CoNLL 2017 UD Shared Task. Our
+      parser, called UParse, is based on a neural
+      network graph-based dependency parser.
+      The parser uses features from a bidirectional
+      LSTM to produce a distribution over
+      possible heads for each word in the sentence.
+      To allow transfer learning for lowresource
+      treebanks and surprise languages,
+      we train several multilingual models for
+      related languages, grouped by their genus
+      and language families. Out of 33 participants,
+      our system achieves rank 9th in the
+      main results, with 75.49 UAS and 68.87
+      LAS F-1 scores (average across 81 treebanks).
