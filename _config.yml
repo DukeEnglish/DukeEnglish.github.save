@@ -184,29 +184,29 @@ papers:
   #     on a batch query task. When we saturate both devices, the GPU 
   #     delivers nearly twice the throughput per hardware dollar even when the
   #     CPU implementation uses faster data structures.
-  - layout: paper
-    year: 2017
-    paper-type: inproceedings
-    img: zhihu
-    title: "UParse: the Edinburgh system for the CoNLL 2017 UD shared task"
-    authors: Clara Vania, Xingxing Zhang, and Adam Lopez
-    booktitle: "Proceedings of the CoNLL shared task"
-    booktitle-url: http://universaldependencies.org/conll17/
-    doc-url: http://aclweb.org/anthology/K17-3010
-    venue: workshop
-    abstract: >
-      This paper presents our submissions for
-      the CoNLL 2017 UD Shared Task. Our
-      parser, called UParse, is based on a neural
-      network graph-based dependency parser.
-      The parser uses features from a bidirectional
-      LSTM to produce a distribution over
-      possible heads for each word in the sentence.
-      To allow transfer learning for lowresource
-      treebanks and surprise languages,
-      we train several multilingual models for
-      related languages, grouped by their genus
-      and language families. Out of 33 participants,
-      our system achieves rank 9th in the
-      main results, with 75.49 UAS and 68.87
-      LAS F-1 scores (average across 81 treebanks).
+  # - layout: paper
+  #   year: 2017
+  #   paper-type: inproceedings
+  #   img: zhihu
+  #   title: "UParse: the Edinburgh system for the CoNLL 2017 UD shared task"
+  #   authors: Clara Vania, Xingxing Zhang, and Adam Lopez
+  #   booktitle: "Proceedings of the CoNLL shared task"
+  #   booktitle-url: http://universaldependencies.org/conll17/
+  #   doc-url: http://aclweb.org/anthology/K17-3010
+  #   venue: workshop
+  #   abstract: >
+  #     This paper presents our submissions for
+  #     the CoNLL 2017 UD Shared Task. Our
+  #     parser, called UParse, is based on a neural
+  #     network graph-based dependency parser.
+  #     The parser uses features from a bidirectional
+  #     LSTM to produce a distribution over
+  #     possible heads for each word in the sentence.
+  #     To allow transfer learning for lowresource
+  #     treebanks and surprise languages,
+  #     we train several multilingual models for
+  #     related languages, grouped by their genus
+  #     and language families. Out of 33 participants,
+  #     our system achieves rank 9th in the
+  #     main results, with 75.49 UAS and 68.87
+  #     LAS F-1 scores (average across 81 treebanks).
